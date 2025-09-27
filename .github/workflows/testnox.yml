@@ -28,7 +28,7 @@ jobs:
     - name: Install deb packages
       run: >
         sudo apt-get install
-        libcairo2-dev gobject-introspection libgirepository1.0-dev
+        libcairo2-dev gobject-introspection libgirepository-2.0-dev
         python3-dev libdbus-glib-1-dev libdbus-1-dev
     - name: Install pip dependencies
       run: |
